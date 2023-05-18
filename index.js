@@ -92,7 +92,6 @@ async function run() {
         const result = await cursor.toArray();
         res.send(result);
       } else {
-        console.log("success");
         return res.status(403).send({ message: "unAuthorize" });
       }
     });
