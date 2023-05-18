@@ -111,7 +111,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Hello world");
+  res.send("genius server in running !");
 });
 app.listen(port, () => {
   console.log(`server is running...${port}`);
